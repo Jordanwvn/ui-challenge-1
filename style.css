@@ -1,0 +1,174 @@
+* {
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+html {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+#a {
+  line-height: 75px;
+  height: 75px;
+  width: 480px;
+  display: block;
+  background-color: #000;
+}
+
+#b {
+  line-height: 150px;
+  height: 150px;
+  width: 480px;
+  display: block;
+  background-color: #111;
+}
+
+#c {
+  line-height: 125px;
+  height: 125px;
+  width: 480px;
+  background-color: #222;
+}
+
+#d {
+  line-height: 125px;
+  height: 125px;
+  width: 480px;
+  background-color: #333;
+}
+
+#e {
+  line-height: 250px;
+  height: 250px;
+  width: 240px;
+  background-color: #444;
+}
+
+#f {
+  line-height: 250px;
+  height: 250px;
+  width: 240px;
+  background-color: #555;
+}
+
+#g {
+  line-height: 250px;
+  height: 250px;
+  width: 240px;
+  background-color: #666;
+}
+
+#h {
+  line-height: 250px;
+  height: 250px;
+  width: 240px;
+  background-color: #777;
+}
+
+#i {
+  display: block;
+  line-height: 80px;
+  height: 80px;
+  width: 480px;
+  background-color: #888;
+}
+
+#c-i {
+}
+
+#c-d div {
+  display: block;
+  float: right;
+}
+
+#e-f div {
+  display: block;
+}
+
+#g-h div {
+  display: block;
+}
+
+#c-i div {
+  float: left;
+  text-align: center;
+}
+
+
+@media (min-width: 800px) {
+  * {
+    color: white;
+    text-align: center;
+  }
+
+  html {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  #a {
+    line-height: 100px;
+    height: 100px;
+    width: 960px;
+  }
+
+  #b {
+    line-height: 600px;
+    height: 600px;
+    width: 200px;
+    float: left;
+  }
+
+  #c {
+    line-height: 200px;
+    height: 200px;
+    width: 380px;
+  }
+
+  #d {
+    line-height: 200px;
+    height: 200px;
+    width: 380px;
+  }
+
+  #e {
+    line-height: 250px;
+    height: 250px;
+    width: 190px;
+  }
+
+  #f {
+    line-height: 250px;
+    height: 250px;
+    width: 190px;
+  }
+
+  #g {
+    line-height: 250px;
+    height: 250px;
+    width: 190px;
+  }
+
+  #h {
+    line-height: 250px;
+    height: 250px;
+    width: 190px;
+  }
+
+  #i {
+    line-height: 150px;
+    height: 150px;
+    width: 760px;
+  }
+
+  #c-d div {
+    display: block;
+  }
+/*
+  #c-i div {
+    float: right;
+  }*/
+
+}
